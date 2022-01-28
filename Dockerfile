@@ -16,8 +16,6 @@ RUN apk add --no-cache \
 
 FROM node:lts-alpine
 
-LABEL maintainer='Michaël "e7d" Ferrand <michael@e7d.io>'
-
 WORKDIR /app
 
 COPY assets/fonts/ /usr/share/fonts/
