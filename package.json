@@ -1,0 +1,26 @@
+{
+  "name": "speedtest",
+  "description": "A JavaScript network speedtest based on Web Worker.",
+  "author": "Michaël Ferrand <michael@e7d.io>",
+  "homepage": "https://github.com/e7d/speedtest#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e7d/speedtest.git"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "build:dev": "lerna run build:dev",
+    "setup": "npm ci && lerna bootstrap",
+    "setup:dev": "npm i && lerna bootstrap",
+    "start": "lerna run start --stream",
+    "start:dev": "lerna run start:dev --stream",
+    "test": "lerna run test"
+  },
+  "bugs": {
+    "url": "https://github.com/e7d/speedtest/issues"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
